@@ -56,7 +56,7 @@ const FileList: React.FC<FileListProps> = ({ files, onDelete, showMessage }) => 
             </ListItem>
           ))
         ) : (
-          <Text>No files found.</Text>
+          <Text></Text>
         )}
       </List>
     </Box>
