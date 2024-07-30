@@ -1,0 +1,5 @@
+/venv
+files.db
+error.log
+Rick-Kase-Website.sock
+__pycache__

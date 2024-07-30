@@ -1,0 +1,99 @@
+# .gitignore for project
+
+# Node.js and React in frontend
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/build
+/frontend/dist
+/frontend/.cache
+/frontend/.next
+/frontend/out
+/frontend/coverage
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/.npm
+/frontend/.yarn
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/.cache-loader
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Misc
+.DS_Store
+*.pem
+
+# Python in backend
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/env/
+/backend/venv/
+/backend/.venv/
+/backend/pip-wheel-metadata/
+/backend/.mypy_cache/
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/*.egg-info
+/backend/.eggs/
+/backend/build/
+/backend/dist/
+/backend/insta
+/backend/.tox/
+/backend/.coverage.*
+
+# Jupyter Notebook
+/backend/.ipynb_checkpoints
+/backend/.env
+/backend/.env.*
+/backend/.spyderproject
+/backend/.spyproject
+/backend/.ropeproject
+
+# macOS
+/backend/.DS_Store
+
+# Windows
+/backend/Thumbs.db
+/backend/*.cab
+/backend/*.msi
+/backend/*.msm
+/backend/*.msp
+
+# DevOps
+/devops/*.log
+/devops/*.pid
+/devops/.terraform
+/devops/.terragrunt-cache
+/devops/.tfstate*
+/devops/.tfplan*
+
+# IDEs
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+*.swp
+*.swo
+
+# All other sensitive or unnecessary files
+.env
+.env.*
+.secret
+.secret.*
