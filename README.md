@@ -3,6 +3,7 @@ File Upload Web Tool to database. Uses React & Chakra-UI on the frontend, Python
 
 # Project Structure
 
+```
 Eisen-submission/
 ├── frontend/
 │   ├── public/
@@ -42,6 +43,7 @@ Eisen-submission/
     ├── ..
 └── .gitignore
 └── README.md
+```
 
 # Launch Instructions
 
