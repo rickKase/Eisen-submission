@@ -59,6 +59,5 @@ That's it. Because Devops ought be simple.
 to start the application, run `./devops/start.bat`
 to stop the application, run `./devops/stop.bat`
 
-Sadly not. Because Bill Gates made nothing elegant.
-If you use Windows (I'm sorry for your loss)
-then inform me and I will troubleshoot any launch mishaps with you.
+Sadly not. Because Windows isn't my forte.
+If you use Windows, then let me know and I will troubleshoot any launch mishaps with you.
